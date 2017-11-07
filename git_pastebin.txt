@@ -1,0 +1,24 @@
+SKYPE:
+
+[06/11/2017, 15:17:45] Andy Buckley: FastJets
+[06/11/2017, 15:18:01] Andy Buckley: bTagged()
+[06/11/2017, 15:18:04] Andy Buckley: bTags()
+[06/11/2017, 15:18:29] Andy Buckley: ghost-association
+[06/11/2017, 15:20:34] Andy Buckley: bTagged(Cuts::pT > 5*GeV)
+[06/11/2017, 15:22:19] Andy Buckley: if (jets.size() < 4) vetoEvent;
+[06/11/2017, 15:22:58] Andy Buckley: if (!any(jets, hasBTag(Cuts::pT > 5*GeV))) vetoEvent;
+[06/11/2017, 15:25:32] Andy Buckley: Overlap between electrons (and muons) and jets -- need to _isolate_ jets from direct leptons?
+[06/11/2017, 15:27:03] Andy Buckley: p4.absrap()
+[06/11/2017, 15:27:12] Andy Buckley: better than abs(p4.rapidity())
+[06/11/2017, 15:34:23] Andy Buckley: -c Top:all=on
+[06/11/2017, 15:34:53] Neil Warrack: your breaking up
+[06/11/2017, 15:35:07] Andy Buckley: Connection trouble
+[06/11/2017, 15:35:40] Andy Buckley: I'll type until it comes back
+[06/11/2017, 15:35:40] Andy Buckley: Ok, typing...
+[06/11/2017, 15:35:42] Andy Buckley: Is that Top:all=on thing what you did?
+[06/11/2017, 15:35:51] Neil Warrack: yes
+[06/11/2017, 15:36:07] Andy Buckley: Would be interesting to know what the error message was
+[06/11/2017, 15:36:08] Andy Buckley: From the plotting
+[06/11/2017, 15:36:18] Andy Buckley: Plotting shouldn't really care about normalisation -- we try not to use the make-plots normalising function
+[06/11/2017, 15:38:11] Andy Buckley: https://rivet.hepforge.org/trac/wiki/CodingStyleGuide
+[06/11/2017, 15:49:10] Andy Buckley: https://twiki.cern.ch/twiki/bin/viewauth/Atlas/MuonTriggerTasks
